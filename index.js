@@ -3,10 +3,10 @@ function getName(node) {
 }
 
 function headNode(linkedList, collection){
-  return collection[linkedList]
+  return collection[linkedList];
 }
 
 function next(node, collection) {
   let nextAddress = node.next;
-  return collection[`${nextAddress}`]
+  return collection[`${nextAddress}`];
 }
